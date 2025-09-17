@@ -127,7 +127,7 @@ He is highly skilled in React, Tailwind CSS, JavaScript, TypeScript, Vite, Git/G
                   </div>
                   <ul className="space-y-2">
                     <li className="flex justify-between">
-                      <span>B.A. in Engineering Physics</span>
+                      <span>B.Sc. in Engineering Physics</span>
                       <span className="text-gray-500">2019-2024</span>
                       <span>Obafemi Awolowo University</span>
                     </li>
