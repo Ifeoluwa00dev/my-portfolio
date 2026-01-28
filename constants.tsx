@@ -147,6 +147,6 @@ export const PERSONAL_INFO = {
   name: "Ìfẹ́olúwa.Dev",
   email: "adeleganifeoluwapojoshua@gmail.com",
   github: "https://github.com/ifeoluwa00dev",
-  linkedin: "https://linkedin.com/in/ifeoluwa",
+  linkedin: "https://www.linkedin.com/in/joshua-ifeoluwapo-adelegan/",
   copyright: `© ${new Date().getFullYear()} Ìfẹ́olúwa Dev. All rights reserved.`
 };
