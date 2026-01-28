@@ -30,13 +30,13 @@ const Contact = () => {
                       </div>
                     </a>
                     
-                    <a href="https://www.linkedin.com/in/joshua-adelegan-2a751b281/" className="flex items-center space-x-6 group">
+                    <a href="https://www.linkedin.com/in/joshua-ifeoluwapo-adelegan/" className="flex items-center space-x-6 group">
                       <div className="w-14 h-14 rounded-2xl glass-panel flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500 group-hover:text-white transition-all border border-white/10">
                         <Linkedin size={24} />
                       </div>
                       <div>
                         <p className="text-xs font-bold text-gray-500 uppercase tracking-widest">LinkedIn</p>
-                        <p className="text-lg font-bold">linkedin.com/in/joshua-adelegan-2a751b281</p>
+                        <p className="text-lg font-bold">linkedin.com/in/joshua-ifeoluwapo-adelegan</p>
                       </div>
                     </a>
 
