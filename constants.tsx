@@ -120,7 +120,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     Icon: Linkedin,
-    href: "https://www.linkedin.com/in/joshua-adelegan-2a751b281/",
+    href: "https://www.linkedin.com/in/joshua-ifeoluwapo-adelegan/",
     label: "LinkedIn"
   },
   {
