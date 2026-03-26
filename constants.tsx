@@ -6,8 +6,41 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 
 export const PROJECTS: Project[] = [
+
   {
-    id: '1',
+    
+  id: '1',
+  title: 'Release Innovations Ltd',
+  description: 'Full business website for a Lagos-based beauty and lifestyle consultancy, built to establish their online presence and drive client inquiries.',
+  image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486160/screencapture-releaseinnovationsltd-2026-03-25-17_28_31_tswmdg.png',
+  images: [
+    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486160/screencapture-releaseinnovationsltd-2026-03-25-17_28_31_tswmdg.png',
+    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486166/screencapture-releaseinnovationsltd-2026-03-25-17_44_00_tdkhkm.png',
+    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486143/screencapture-releaseinnovationsltd-2026-03-25-17_44_39_h0kijq.png',
+  ],
+  category: 'Business',
+  techStack: ['React', 'Tailwind CSS', 'EmailJS', 'Google Analytics', 'Meta Pixel'],
+  features: ['Contact form with EmailJS', 'Google Analytics integration', 'Meta Pixel tracking', 'Responsive design', 'Custom business email setup'],
+  link: 'https://releaseinnovationsltd.com/',
+
+  },
+  {
+  id: '2',
+  title: 'Kira Africa',
+  description: 'Portfolio and booking website for Esther Ogo Akintade, designed to showcase her work and allow clients to book sessions seamlessly.',
+  image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486744/screencapture-kiraafrica-2026-03-25-17_53_56_sseuy1.png',
+  images: [
+    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486744/screencapture-kiraafrica-2026-03-25-17_53_56_sseuy1.png',
+    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486740/screencapture-kiraafrica-about-2026-03-25-17_56_35_ohqv9k.png',
+    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486723/screencapture-kiraafrica-services-2026-03-25-17_57_28_xmterd.png',
+  ],
+  category: 'Portfolio & Booking',
+  techStack: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'React Router', 'EmailJS'],
+  features: ['Animated UI with Framer Motion', 'Booking form with EmailJS', 'Smooth page transitions', 'Responsive design', 'Netlify deployment'],
+  link: 'https://kiraafrica.com/',
+},
+  {
+    id: '3',
     title: 'E-Commerce Redesign',
     description: 'Complete redesign of an e-commerce platform focusing on user experience and conversion optimization.',
     image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1769436603/Untitled_design_3_qg2pwo.png',
@@ -21,7 +54,7 @@ export const PROJECTS: Project[] = [
     link :'https://rosby-ecommerce.netlify.app/'
   },
   {
-    id: '2',
+    id: '4',
     title: 'NAR Automobile',
     description: 'Responsive car-booking website for all car services with dynamic inventory.',
     image: 'https://picsum.photos/seed/car1/800/600',
@@ -34,7 +67,7 @@ export const PROJECTS: Project[] = [
     link :'https://narautomobiles.netlify.app/'
   },
   {
-    id: '3',
+    id: '5',
     title: 'Virtual Assistant Portfolio',
     description: 'Conversion-focused portfolio for a Virtual Assistant with packages and contact funnel.',
     image: 'https://picsum.photos/seed/va1/800/600',
@@ -47,7 +80,7 @@ export const PROJECTS: Project[] = [
     link :'https://adeleganmercyportfolio.netlify.app/'
   },
   {
-    id: '4',
+    id: '6',
     title: 'AI SmartFlu Trading',
     description: 'A modern, trust-driven trading website built to communicate credibility and convert users.',
     image: 'https://picsum.photos/seed/trade1/800/600',
@@ -60,7 +93,7 @@ export const PROJECTS: Project[] = [
     link :'https://new092.netlify.app/'
   },
   {
-    id: '5',
+    id: '7',
     title: 'Mobile Photographer Portfolio',
     description: 'High-converting portfolio page for photographers with tested design elements.',
     image: 'https://picsum.photos/seed/photo1/800/600',
@@ -70,7 +103,7 @@ export const PROJECTS: Project[] = [
     category: 'Portfolio',
     techStack: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
     features: ['Interactive showcases', 'Scroll animations', 'Testimonials'],
-    link :'https://new092.netlify.app/'
+    link :'https://ladameshotit.netlify.app/'
   }
 ];
 
