@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
     'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486740/screencapture-kiraafrica-about-2026-03-25-17_56_35_ohqv9k.png',
     'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486723/screencapture-kiraafrica-services-2026-03-25-17_57_28_xmterd.png',
   ],
-  category: 'Portfolio & Booking',
+  category: 'Portfolio',
   techStack: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'React Router', 'EmailJS'],
   features: ['Animated UI with Framer Motion', 'Booking form with EmailJS', 'Smooth page transitions', 'Responsive design', 'Netlify deployment'],
   link: 'https://kiraafrica.com/',
