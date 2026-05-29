@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# My Portfolio
 
-# Run and deploy your AI Studio app
+**Personal developer portfolio.**
 
-This contains everything you need to run your app locally.
+A showcase of my work, skills, and background as a full-stack developer — built to give potential clients and collaborators a clear picture of what I build and how I think.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1a0-vCx5mk5PutwYM4-wjGV-wsUnGI07K
+---
 
-## Run Locally
+## What's Inside
 
-**Prerequisites:**  Node.js
+- Introduction and personal statement
+- Selected projects with descriptions, tech stack, and live links
+- Skills and tools
+- Work history
+- Contact
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React + TypeScript |
+| Styling | Tailwind CSS |
+| Hosting | Netlify |
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+## License
+
+MIT
