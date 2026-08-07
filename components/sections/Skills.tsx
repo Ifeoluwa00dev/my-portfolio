@@ -1,5 +1,5 @@
 import React from 'react';
-import {Code2, Cpu, Palette}  from 'lucide-react'
+import {Code2, Cpu, Palette, Sparkles}  from 'lucide-react'
 import {motion} from 'framer-motion'
 import {SKILL_CATEGORIES} from '../../constants'
 
@@ -13,8 +13,11 @@ const Skills = () => {
               <p className="text-gray-400">A comprehensive list of tools and technologies I use to bring ideas to life.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {SKILL_CATEGORIES.map((category, idx) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {SKILL_CATEGORIES.map((category, idx) => {
+                const icons = [Code2, Cpu, Sparkles, Palette];
+                const Icon = icons[idx % icons.length];
+                return (
                 <motion.div 
                   key={category.title}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +27,7 @@ const Skills = () => {
                   className="glass-panel p-8 rounded-3xl border border-white/10 hover:border-indigo-500/30 transition-all"
                 >
                   <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-6 border border-indigo-500/20">
-                    {idx === 0 ? <Code2 size={24} /> : idx === 1 ? <Cpu size={24} /> : <Palette size={24} />}
+                    <Icon size={24} />
                   </div>
                   <h3 className="text-2xl font-bold mb-6 font-jakarta">{category.title}</h3>
                   <ul className="space-y-4">
@@ -36,7 +39,8 @@ const Skills = () => {
                     ))}
                   </ul>
                 </motion.div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </section>

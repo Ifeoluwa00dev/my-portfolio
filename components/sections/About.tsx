@@ -19,10 +19,10 @@ const About = () => {
                 </h2>
                 <div className="space-y-6 text-lg text-gray-400">
                   <p>
-                    Ifeoluwa is a versatile Frontend Developer and UI/UX Designer with over 5 years of experience creating innovative digital solutions. His journey began with graphics design, building a strong eye for detail and positioning.
+                    Ifeoluwa is a full-stack developer building production web products since 2024. His journey began in graphic design, building a strong eye for detail and positioning before moving into engineering.
                   </p>
                   <p>
-                    He has since evolved into a career that blends creativity with technical expertise. He is highly skilled in React, Tailwind CSS, JavaScript, and Firebase, with a deep understanding of user-centric design principles.
+                    He has since evolved into a career that blends creativity with technical expertise. He is highly skilled in React, TypeScript, Next.js, Supabase, and Node.js, with hands-on experience integrating the Claude and Gemini APIs into production products.
                   </p>
                 </div>
 
@@ -59,7 +59,7 @@ const About = () => {
                   {[
                     { name: 'Frontend Development', level: 95, color: 'bg-indigo-500' },
                     { name: 'UI/UX Design', level: 90, color: 'bg-purple-500' },
-                    { name: 'Web Design', level: 85, color: 'bg-blue-500' },
+                    { name: 'AI / LLM Integration', level: 85, color: 'bg-blue-500' },
                     { name: 'System Architecture', level: 80, color: 'bg-emerald-500' }
                   ].map((skill, idx) => (
                     <div key={idx} className="space-y-3">

@@ -6,121 +6,117 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 
 export const PROJECTS: Project[] = [
-
   {
-    
-  id: '1',
-  title: 'Release Innovations Ltd',
-  description: 'Full business website for a Lagos-based beauty and lifestyle consultancy, built to establish their online presence and drive client inquiries.',
-  image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486160/screencapture-releaseinnovationsltd-2026-03-25-17_28_31_tswmdg.png',
-  images: [
-    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486160/screencapture-releaseinnovationsltd-2026-03-25-17_28_31_tswmdg.png',
-    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486166/screencapture-releaseinnovationsltd-2026-03-25-17_44_00_tdkhkm.png',
-    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486143/screencapture-releaseinnovationsltd-2026-03-25-17_44_39_h0kijq.png',
-  ],
-  category: 'Business',
-  techStack: ['React', 'Tailwind CSS', 'EmailJS', 'Google Analytics', 'Meta Pixel'],
-  features: ['Contact form with EmailJS', 'Google Analytics integration', 'Meta Pixel tracking', 'Responsive design', 'Custom business email setup'],
-  link: 'https://releaseinnovationsltd.com/',
-
+    id: '1',
+    title: 'WC26 — World Cup 2026 Fan Intelligence',
+    description: 'Live fan-intelligence platform covering all 48 teams, 12 groups, and 104 matches of the 2026 World Cup — built and shipped solo in under two weeks.',
+    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1786068292/wc26_1_ufnpr0.png',
+    images: [
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786068292/wc26_1_ufnpr0.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786068559/Untitled_design_1_idyqi9.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786068855/Untitled_design_2_z6mosy.png',
+    ],
+    category: 'Product',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS v4', 'Supabase', 'Recharts'],
+    features: ['Live group standings', 'Golden Boot tracker', 'Knockout bracket simulator', 'Win probability rankings', 'Shipped solo in under 2 weeks'],
+    link: 'https://wc26-0jzg.onrender.com',
   },
   {
-  id: '2',
-  title: 'Kira Africa',
-  description: 'Portfolio and booking website for Esther Ogo Akintade, designed to showcase her work and allow clients to book sessions seamlessly.',
-  image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486744/screencapture-kiraafrica-2026-03-25-17_53_56_sseuy1.png',
-  images: [
-    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486744/screencapture-kiraafrica-2026-03-25-17_53_56_sseuy1.png',
-    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486740/screencapture-kiraafrica-about-2026-03-25-17_56_35_ohqv9k.png',
-    'https://res.cloudinary.com/drkksaa3i/image/upload/v1774486723/screencapture-kiraafrica-services-2026-03-25-17_57_28_xmterd.png',
-  ],
-  category: 'Portfolio',
-  techStack: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'React Router', 'EmailJS'],
-  features: ['Animated UI with Framer Motion', 'Booking form with EmailJS', 'Smooth page transitions', 'Responsive design', 'Netlify deployment'],
-  link: 'https://kiraafrica.com/',
-},
+    id: '2',
+    title: 'Ascent — AI-Powered Goal Planning',
+    description: 'Goal-planning platform that turns a stated starting point and target into a phased daily plan, with weekly AI-generated tasks that adapt to actual progress.',
+    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1786070431/Untitled_design_9_brclta.png',
+    images: [
+      'hhttps://res.cloudinary.com/drkksaa3i/image/upload/v1786070431/Untitled_design_9_brclta.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786070440/Untitled_design_10_d8g5nf.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786070522/Untitled_design_11_d5blfa.png ',
+    ],
+    category: 'AI',
+    techStack: ['Next.js', 'TypeScript', 'Supabase', 'Gemini API', 'Recharts'],
+    features: ['Up to 4 concurrent goals with 30-day "climbs"', 'AI-generated weekly task batches via Gemini', 'Streak tracking & completion analytics', 'RLS-enforced goal limits in Supabase'],
+    link: 'https://ascent-alpha-tawny.vercel.app/',
+  },
   {
     id: '3',
-    title: 'E-Commerce Redesign',
-    description: 'Complete redesign of an e-commerce platform focusing on user experience and conversion optimization.',
-    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1769436603/Untitled_design_3_qg2pwo.png',
-    images : [
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769436603/Untitled_design_3_qg2pwo.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769466787/screencapture-rosby-ecommerce-netlify-app-products-automobiles-2026-01-26-14_29_53_mtfncd.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769467658/screencapture-rosby-ecommerce-netlify-app-product-Pointed-Toe-Stiletto-Heels-2026-01-26-14_45_58_wrl5d1.png"],
-    category: 'E-Commerce',
-    techStack: ['React', 'Tailwind CSS', 'Firebase', 'Cloudinary', 'Firestore'],
-    features: ['Search functionality', 'Cart management', 'Responsive design'],
-    link :'https://rosby-ecommerce.netlify.app/'
+    title: 'Vycinty — Local Business Discovery',
+    description: 'Mobile-first directory helping Ile-Ife residents discover local businesses by category and location, with self-service owner listing management.',
+    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1786070946/Untitled_design_13_ochouc.png',
+    images: [
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786070946/Untitled_design_13_ochouc.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786070997/Untitled_design_14_grk6ko.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786071060/Untitled_design_15_rbd8uc.png',
+    ],
+    category: 'Business',
+    techStack: ['React', 'TypeScript', 'Next.js', 'Supabase', 'PostgreSQL'],
+    features: ['Business discovery by category & location', 'Self-service owner listing management', 'Mobile-first design', 'Currently rebuilding on Next.js'],
+    link: 'https://vycinty.netlify.app/',
   },
   {
     id: '4',
-    title: 'NAR Automobile',
-    description: 'Responsive car-booking website for all car services with dynamic inventory.',
-    image: 'https://picsum.photos/seed/car1/800/600',
-    images : ["https://res.cloudinary.com/drkksaa3i/image/upload/v1769462044/5_yygdtc.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769517062/screencapture-narautomobiles-netlify-app-vehicles-2026-01-27-04_28_52_qjmo6c.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769518643/screencapture-narautomobiles-netlify-app-about-2026-01-27-04_38_57_j3mee1.png"],
-    category: 'Business',
-    techStack: ['React', 'Unsplash API', 'JavaScript', 'Tailwind CSS'],
-    features: ['Inventory browsing', 'Booking system', 'Dynamic filtering'],
-    link :'https://narautomobiles.netlify.app/'
+    title: 'Doju Health — Production Incident Fix',
+    description: 'Diagnosed and resolved a critical iOS white-screen crash blocking mobile checkout on a live healthcare marketplace.',
+    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1786072093/Untitled_design_16_wcejiy.png',
+    images: [
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786072093/Untitled_design_16_wcejiy.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786072221/Untitled_design_20_trcwso.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786072285/Untitled_design_19_m5llje.png',
+    ],
+    category: 'Healthcare',
+    techStack: ['React', 'TypeScript', 'Performance Optimization'],
+    features: ['Traced crash to a 9.5MB JS bundle', 'Cut bundle to 603KB via lazy loading & code splitting', 'Restored mobile checkout conversions'],
+    link: 'https://doju.netlify.app/',
   },
   {
     id: '5',
-    title: 'Virtual Assistant Portfolio',
-    description: 'Conversion-focused portfolio for a Virtual Assistant with packages and contact funnel.',
-    image: 'https://picsum.photos/seed/va1/800/600',
-    images : ["https://res.cloudinary.com/drkksaa3i/image/upload/v1769462057/4_v0h9sz.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769519615/screencapture-adeleganmercyportfolio-netlify-app-2026-01-27-05_05_52_rpfdbz.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769519933/screencapture-adeleganmercyportfolio-netlify-app-2026-01-27-05_05_52_emx0tr.png"],
-    category: 'Portfolio',
-    techStack: ['React', 'Vite', 'Firebase', 'Tailwind CSS', 'EmailJS'],
-    features: ['Service packages', 'Contact form', 'Testimonial slider'],
-    link :'https://adeleganmercyportfolio.netlify.app/'
+    title: 'Meridian — AI Compatibility Matching',
+    description: 'Deep compatibility matching platform built on a multi-factor Claude API scoring engine with structured-output handling.',
+    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069749/Untitled_design_6_dpuq4r.png',
+    images: [
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069749/Untitled_design_6_dpuq4r.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069755/Untitled_design_7_flau3t.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069871/Untitled_design_8_nevqed.png',
+    ],
+    category: 'AI',
+    techStack: ['React', 'TypeScript', 'Claude API', 'Supabase', 'Resend'],
+    features: ['Multi-factor Claude API scoring engine', 'Structured-output handling', 'Private media reveals', 'Automated email delivery'],
+    link: 'https://relationship-meridian.onrender.com/',
   },
   {
     id: '6',
-    title: 'AI SmartFlu Trading',
-    description: 'A modern, trust-driven trading website built to communicate credibility and convert users.',
-    image: 'https://picsum.photos/seed/trade1/800/600',
-    images : ["https://res.cloudinary.com/drkksaa3i/image/upload/v1769462061/2_e1c8ly.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769520798/screencapture-new092-netlify-app-2026-01-27-05_27_39_p5q2xu.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769520972/screencapture-new092-netlify-app-2026-01-27-05_27_39_es8yih.png"],
-    category: 'Finance',
-    techStack: ['React', 'Tailwind CSS', 'Framer Motion', 'Firebase', 'Cloudinary'],
-    features: ['Onboarding guide', 'Market data visualization', 'Secure login'],
-    link :'https://new092.netlify.app/'
+    title: 'Attendly — Classroom Attendance System',
+    description: 'Real-time rotating-PIN classroom attendance system with anti-fraud checks, tested in real classroom conditions.',
+    image: 'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069238/Untitled_design_3_fl0bk4.png',
+    images: [
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069238/Untitled_design_3_fl0bk4.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069318/Untitled_design_4_irjeh3.png',
+      'https://res.cloudinary.com/drkksaa3i/image/upload/v1786069450/Untitled_design_5_ngqwf5.png',
+    ],
+    category: 'Product',
+    techStack: ['React', 'TypeScript', 'Express.js', 'Socket.io', 'Neon Postgres'],
+    features: ['Real-time rotating-PIN attendance', 'WebSocket sync', 'FingerprintJS anti-fraud checks', 'PDF/CSV export'],
+    link: 'https://meridian-attendance.onrender.com/',
   },
-  {
-    id: '7',
-    title: 'Mobile Photographer Portfolio',
-    description: 'High-converting portfolio page for photographers with tested design elements.',
-    image: 'https://picsum.photos/seed/photo1/800/600',
-    images : ["https://res.cloudinary.com/drkksaa3i/image/upload/v1769462055/3_gd7jbz.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769521877/screencapture-ladameshotit-netlify-app-2026-01-27-05_38_45_otzjgj.png",
-      "https://res.cloudinary.com/drkksaa3i/image/upload/v1769522037/screencapture-ladameshotit-netlify-app-2026-01-27-05_38_45_goncnu.png"],
-    category: 'Portfolio',
-    techStack: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
-    features: ['Interactive showcases', 'Scroll animations', 'Testimonials'],
-    link :'https://ladameshotit.netlify.app/'
-  }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: 'Core Frontend',
-    skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'Responsive Design', 'Mobile-First Development', 'DOM Manipulation', 'Git & GitHub']
+    skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'Responsive Design', 'Git & GitHub']
   },
   {
     title: 'Frameworks & Libraries',
-    skills: ['React.js', 'Tailwind CSS', 'Bootstrap', 'Redux', 'Zustand', 'Framer Motion', 'RESTful APIs', 'Firebase (Auth, Firestore)']
+    skills: ['React.js', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'Recharts', 'RESTful APIs']
   },
   {
-    title: 'Design Tools',
-    skills: ['Figma', 'Adobe XD', 'Canva', 'Wireframing', 'UI/UX Principles', 'Prototyping', 'Component-Based Architecture']
+    title: 'Backend & Data',
+    skills: ['Node.js', 'Express.js', 'Supabase', 'PostgreSQL', 'Firebase', 'Socket.io']
+  },
+  {
+    title: 'AI & Design',
+    skills: ['Claude API', 'Gemini API', 'Prompt Engineering', 'Figma', 'UI/UX Principles', 'Prototyping']
   }
 ];
+
 
 export const PROCESS_STEPS: ProcessStep[] = [
   {

@@ -209,7 +209,7 @@ const Projects = () => {
         <div className="container mx-auto px-6">
           {/* Filter */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {['All', 'Business', 'Portfolio', 'Finance', 'E-Commerce'].map((filter) => (
+            {['All', 'Product', 'AI', 'Business', 'Healthcare'].map((filter) => (
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter as Project['category'])}
